@@ -6,7 +6,7 @@ name=input("sir/madam, write  your  name:")
 hour= datetime.datetime.now().hour
 if 5<= hour<=11:
    print("good morning",name)
-elif 12<= hour<= 6:
+elif 12<= hour<= 17:
    print("good evening",name)
 else:
    print("good  night",name)
